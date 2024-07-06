@@ -1,0 +1,144 @@
+body
+{
+    font-family: sans-serif;
+}
+.title{
+    display: flex;
+    font-size:1.7vw;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1vw ;
+    padding-bottom: 1vw ;
+    border-bottom: .121vw solid rgba(0, 0, 0, 0.1) ;
+
+}
+.container
+{
+    /* margin-top: 2vw;  */
+    max-width: 31.25vw;
+    margin: 2vw auto;
+    padding: 1.042vw;
+    background-color: #f9f9f9;
+    box-shadow: 0vw 0.104vw 0.208vw rgba(0, 0, 0, 0.1) ;
+    border-radius: 0.8vw;
+}
+
+
+/* input[type = "text"],select,input[type ="number"], input[type =submit] */
+input[type = "text"],select,input[type ="number"], input[type =submit]
+{
+    margin-bottom: 1vw;
+    width: 100%;
+    padding: 0.416vw;
+    border-radius: 0.416vw;
+    border:.121vw solid #ccc;
+    box-sizing:border-box;
+}
+
+input[type=submit]{
+    background-color: #4caf5d;
+    color: white;
+    font: 100%;
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+/* #selectorField{
+    color: #6c6b6b;
+    font-weight: 100;
+    font-size: 2vh;
+    margin-bottom: 1vw;    
+    width: 100%;
+    padding: 0.416vw;
+    border:.121vw solid #ccc;
+    border-radius:0.415vw ;
+    padding: 0.416vw;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#selectorField img{
+    width: 0.7vw;
+    padding-right: 0.4vw;
+
+} */
+
+#list
+{
+    width: 100%;
+    border-radius: 0.416vw;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.options {
+    margin: 0;
+    /* border: 0.121vw solid #ccc; */
+    width: 100%;
+    
+    list-style: none;
+    padding: 0.416vw;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history{
+    display: flex;
+    font-size:1.3vw;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5vw ;
+    padding-bottom: 0.5vw ;
+    border-bottom: .121vw solid rgba(0, 0, 0, 0.1) ;
+
+}
+
+th,td{
+    border: 0.104vw solid #ddd;
+    padding: 0.418vw ;
+    text-align: left;
+}
+
+th{
+    background-color: #4caf5d;
+    color: white;    
+}
+
+.delete-button {
+    border: 1px solid #e04151;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #e04151;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.delete-button:active {
+    background-color: firebrick;
+}

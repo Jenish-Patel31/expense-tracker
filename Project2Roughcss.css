@@ -1,0 +1,101 @@
+body
+{
+    font-family: sans-serif;
+}
+
+.container
+{
+    max-width: 31.25vw;
+    margin: 0 auto;
+    padding: 1.042vw;
+    background-color: #f9f9f9;
+    box-shadow: 0vw 0.104vw 0.208vw rgba(0, 0, 0, 0.1) ;
+    border-radius: 0.8vw;
+}
+
+
+/* input[type = "text"],select,input[type ="number"], input[type =submit] */
+input[type = "text"],input[type ="number"], input[type =submit]
+{
+    margin-bottom: 1vw;
+    width: 100%;
+    padding: 0.416vw;
+    border-radius: 0.416vw;
+    border:.121vw solid #ccc;
+    box-sizing:border-box;
+}
+
+input[type=submit]{
+    background-color: #4caf5d;
+    color: white;
+    font: 100%;
+    font-size: 1vw;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+#selectorField{
+    color: #6c6b6b;
+    font-weight: 100;
+    font-size: 2vh;
+    margin-bottom: 1vw;    
+    width: 100%;
+    padding: 0.416vw;
+    border:.121vw solid #ccc;
+    border-radius:0.415vw ;
+    padding: 0.416vw;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+#selectorField img{
+    width: 0.7vw;
+    padding-right: 0.4vw;
+
+}
+
+#list
+{
+    width: 100%;
+    border-radius: 0.416vw;
+    overflow: hidden;
+    box-sizing:border-box;
+}
+
+.options {
+    margin-left: 0px;
+    border: 0.121vw solid #ccc;
+    width: 100%;
+    list-style: none;
+    padding: 1vw;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 0.104vw solid #ddd;
+    padding: 0.418vw ;
+    text-align: left;
+}
+
+th{
+    background-color: #4caf5d;
+    color: white;
+;
+    
+}
